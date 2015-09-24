@@ -1,0 +1,26 @@
+body {
+  background: #223;
+  margin: 0;
+  font: 12px/16px monospace;
+  color: #889;
+}
+main {
+  margin: 28px auto 0;
+}
+
+#sf_board {
+  margin: 0;
+}
+#sf_menu {
+  float: right;
+  width: 240px;
+}
+#sf_menu p {
+  margin: 0;
+  padding: 1ch;
+}
+#sf_log {
+  background: #111;
+  margin: 0;
+  padding: 1ch;
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html xmlns="http://w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Space Fortress: Sandbox</title>
+    <link rel="stylesheet" type="text/css" href="sfs-0.2.css"/>
+  </head>
+  <body>
+    <main>
+      <div id="sf_menu">
+        <p><u>arrows</u>: move on x,y axis</p>
+        <p><u>ctrl+up,down</u>: move on z axis</p>
+        <p><u>shift+arrows</u>: rotate, centered on focus</p>
+        <p><u>p</u>: add block in place, add to shape if shape mode on, join
+          shapes if focus on block</p>
+        <p><u>d</u>: delete block</p>
+        <p><u>s</u>: toggle shape mode, new shape if focus on void, modify shape
+          if focus on block</p>
+        <p><u>n</u>: next tile in the palette</p>
+        <p><u>c</u>: toggle "cut" view (look inside things)</p>
+      </div>
+      <canvas id="sf_board"></canvas>
+      <p id="sf_log"></p>
+    </main>
+    <div style="display: none;">
+      <img id="sf_focus" src="block/focus.png"/>
+      <img id="sf_metal" src="block/metal.png"/>
+      <img id="sf_poly_black" src="block/poly-black.png"/>
+      <img id="sf_poly_blue" src="block/poly-blue.png"/>
+      <img id="sf_poly_cyan" src="block/poly-cyan.png"/>
+      <img id="sf_poly_green" src="block/poly-green.png"/>
+      <img id="sf_poly_pink" src="block/poly-pink.png"/>
+      <img id="sf_poly_red" src="block/poly-red.png"/>
+      <img id="sf_poly_white" src="block/poly-white.png"/>
+      <img id="sf_poly_yellow" src="block/poly-yellow.png"/>
+    </div>
+    <script type="text/javascript" src="js/lib-0.2.js"></script>
+    <script type="text/javascript" src="js/model-0.2.js"></script>
+    <script type="text/javascript" src="js/out-0.2.js"></script>
+    <script type="text/javascript" src="js/in-0.2.js"></script>
+    <script type="text/javascript" src="js/conf-0.2.js"></script>
+  </body>
+</html>
